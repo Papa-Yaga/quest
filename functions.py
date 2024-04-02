@@ -103,4 +103,3 @@ def start_game(current_room, game_state, object_relations, all_keys, all_rooms):
       current_room = enter_door(current_room, game_state["keys_collected"], game_state, object_relations, all_keys)
     else:
       print("You have to choose something. Please type 'explore', 'examine' or 'check'.")
-      break
